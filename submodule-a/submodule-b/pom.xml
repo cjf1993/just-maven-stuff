@@ -8,4 +8,11 @@
   <groupId>just.maven.things</groupId>
   <artifactId>submodule-b</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+  	<dependency>
+  		<groupId>just.maven.things</groupId>
+  		<artifactId>submodule-e</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
